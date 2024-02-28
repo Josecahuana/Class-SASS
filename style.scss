@@ -1,0 +1,20 @@
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$fontPrincipal: #242424;
+
+body{
+    background-color: $fontPrincipal;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'footer';

@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(155, 29, 29);
+    height: 40px;
+    gap: 5rem;
+    margin-top: 10rem;
+    
+    p{
+        color: white;
+    }
+}

@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242424;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .listas {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+header .listas li {
+  display: block;
+}
+header .listas li a {
+  color: #242424;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(155, 29, 29);
+  height: 40px;
+  gap: 5rem;
+  margin-top: 10rem;
+}
+footer p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
